@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced Selectors</title>
+    <style>
+        /* tag selector
+        p{}
+
+        Class selector
+        .class{}
+
+        id selector
+        #id{} */
+        
+        ol, ul, p, .special{
+            background-color: rgb(201, 190, 190);
+        }
+        .red{
+            color: red;
+        }
+        .green{
+            color: green;
+        }
+        .bold{
+            font-weight: 800;
+        }
+         .green.bold{
+            font-size: xx-large;
+         }
+         article{
+            background-color: rgb(148, 150, 129);
+         }
+         article > p{
+            color: blue;
+         }
+        
+    </style>
+</head>
+<body>
+
+    <h2>This is heading</h2>
+    <h2 class="special">This is heading</h2>
+    <h2>This is heading</h2>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis natus ab voluptatum pariatur ipsam culpa maiores? Praesentium sed dolores laudantium.</p>
+
+    <article>
+        <h3>This is a heading</h3>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vero cum eum accusantium alias magnam nemo rem ducimus omnis vel? Quos!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur minus assumenda quia similique quaerat explicabo id, esse doloribus numquam ea?</p>
+        <div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, harum?</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, officiis.</p>
+        </div>
+    </article>
+    <article>
+        <h3>This is a heading</h3>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vero cum eum accusantium alias magnam nemo rem ducimus omnis vel? Quos!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur minus assumenda quia similique quaerat explicabo id, esse doloribus numquam ea?</p>
+        <div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, harum?</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, officiis.</p>
+        </div>
+    </article>
+    <article>
+        <h3>This is a heading</h3>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vero cum eum accusantium alias magnam nemo rem ducimus omnis vel? Quos!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur minus assumenda quia similique quaerat explicabo id, esse doloribus numquam ea?</p>
+
+        <div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, harum?</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, officiis.</p>
+        </div>
+    </article>
+
+    <ol>
+        <li class="green">Item 1</li>
+        <li>Item 2</li>
+        <li class="red bold">Item 3</li>
+        <li>Item 4</li>
+        <li>Item 5</li>
+    </ol>
+
+    <ul>
+        <li class="red">Item 1</li>
+        <li>Item 2</li>
+        <li class="bold">Item 3</li>
+        <li>Item 4</li>
+        <li class="green bold">Item 5</li>
+    </ul>
+</body>
+</html>
